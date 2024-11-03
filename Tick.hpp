@@ -138,6 +138,9 @@ private:
 public:
 	int tickCount;
 	bool running;
+	Tick() {
+		this->Init(1000, nullptr, nullptr, nullptr);
+	}
 	Tick(int interval, std::condition_variable* pExternalCv, bool* pExternalFlag1, bool* pExternalFlag2) {
 		this->Init(interval, pExternalCv, pExternalFlag1, pExternalFlag2);
 	}
