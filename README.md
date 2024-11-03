@@ -1,2 +1,1 @@
-# Tick
-Tick header file for c++
+my tick header file for c++
