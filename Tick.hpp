@@ -4,7 +4,6 @@
 #include <time.h>
 #include <ctime>
 #include <condition_variable>
-#include <mutex>
 
 class Tick
 {
