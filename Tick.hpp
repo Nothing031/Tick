@@ -169,4 +169,3 @@ public:
 			this->_thread.join();
 	}
 };
-
